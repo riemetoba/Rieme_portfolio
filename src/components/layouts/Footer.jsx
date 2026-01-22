@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="bg-[#EAEDF2] py-25">
       <Container>
-        <h3 className="font-inter uppercase text-2xl font-black relative">Get in touch <span className="absolute left-0 -bottom-2 w-9 h-0.5 bg-org"></span></h3>
+        <h3 className="font-inter uppercase text-3xl font-black relative">Get in touch <span className="absolute left-0 -bottom-2 w-9 h-0.5 bg-org"></span></h3>
         <p className="font-inter uppercase text-sm text-[#555A64] pt-5 mb-10">A passionate front-end developer based in bangladesh</p>
         <Flex className={"justify-between items-start"}>
           <div className="bg-white w-170 h-90.5 px-6 py-5 shadow-2xl">
