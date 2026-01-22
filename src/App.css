@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@theme {
+  --font-inter: "Inter", sans-serif; 
+   --color-org: #D9832E; 
+}
