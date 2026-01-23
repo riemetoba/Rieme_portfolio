@@ -16,12 +16,12 @@ const Footer = () => {
           <div className="bg-white w-170 h-90.5 px-6 py-5 shadow-2xl">
             <p className="font-inter uppercase text-[12px] text-[#090A0C] font-bold">say something</p>
            <div className="flex items-baseline justify-between gap-x-6 mt-10">
-            <input type="text" className="border-b w-1/2 border-b-[#CCCCCC]" />
-           <input type="text" className="border-b w-1/2 border-b-[#CCCCCC]" />
+            <input type="text" placeholder="Name *" className="border-b w-1/2 border-b-[#CCCCCC]" />
+           <input type="email" placeholder="Email *" className="border-b w-1/2 border-b-[#CCCCCC]" />
            </div>
-           <input type="text" className="border-b border-b-[#CCCCCC] w-full mt-8"/>
-           <input type="text" className="border-b border-b-[#CCCCCC] w-full mt-15" />
-           <Button className={"py-3 px-6 mt-9 bg-org text-[#ffffff] font-inter font-medium uppercase hover:text-org hover:bg-transparent duration-300"} btnText={"send message"}/>
+           <input type="text" placeholder="Subject *" className="border-b border-b-[#CCCCCC] w-full mt-8"/>
+           <input type="text" placeholder="Your Message *" className="border-b border-b-[#CCCCCC] w-full mt-15" />
+           <Button className={"py-3 px-6 mt-9 bg-org text-[#ffffff] font-inter font-medium uppercase hover:text-white hover:bg-black duration-300"} btnText={"send message"}/>
           </div>
           <div className="flex items-start flex-col gap-y-7">
             <div className="w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 shadow-2xl">

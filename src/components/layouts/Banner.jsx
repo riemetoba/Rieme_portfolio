@@ -1,7 +1,7 @@
 import Container from "../Container"
 import Flex from "../Flex"
-import Image from "../Image"
-import banner from "/src/assets/banner.png"
+// import Image from "../Image"
+// import banner from "/src/assets/banner.png"
 
 
 const Banner = () => {
@@ -19,9 +19,9 @@ const Banner = () => {
                      <button className="py-3 px-7 mt-9 border-2 border-org text-org font-inter font-medium uppercase hover:text-white hover:bg-org duration-300">Hire Me</button>
                 </div>
             </div>
-            <div className="">
+            {/* <div className="">
                 <Image src={banner}/>
-            </div>
+            </div> */}
         </Flex>
     </Container>
    </div>

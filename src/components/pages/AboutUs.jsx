@@ -43,7 +43,7 @@ const AboutUs = () => {
               <p className="text-sm font-inter pb-4">Phone <span className="ml-6 text-[#CCCCCC]">|</span> <span className="ml-4 text-[#555A64]">01577043696</span></p>
             </div>
           </div>
-         <button className="py-3 px-6 mt-9 bg-org text-[#ffffff] font-inter font-medium uppercase hover:text-org hover:bg-transparent duration-300">Download CV</button>
+         <button className="py-3 px-6 mt-9 bg-org text-[#ffffff] font-inter font-medium uppercase hover:text-white hover:bg-black duration-300">Download CV</button>
           </div>
         </Flex>
       </Container>
