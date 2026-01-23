@@ -27,23 +27,23 @@ const Footer = () => {
                 <input
                   type="text"
                   placeholder="Name *"
-                  className="border-b w-1/2 border-b-[#CCCCCC]"
+                  className="border-b w-1/2 border-b-[#CCCCCC] hover:border-b-org duration-300"
                 />
                 <input
                   type="email"
                   placeholder="Email *"
-                  className="border-b w-1/2 border-b-[#CCCCCC]"
+                  className="border-b w-1/2 border-b-[#CCCCCC] hover:border-b-org duration-300"
                 />
               </div>
               <input
                 type="text"
                 placeholder="Subject *"
-                className="border-b border-b-[#CCCCCC] w-full mt-8"
+                className="border-b border-b-[#CCCCCC] hover:border-b-org duration-300 w-full mt-8"
               />
               <input
                 type="text"
                 placeholder="Your Message *"
-                className="border-b border-b-[#CCCCCC] w-full mt-15"
+                className="border-b border-b-[#CCCCCC] hover:border-b-org duration-300 w-full mt-15"
               />
               <Button
                 className={
