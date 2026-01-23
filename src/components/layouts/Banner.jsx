@@ -6,7 +6,7 @@ import Flex from "../Flex"
 
 const Banner = () => {
   return (
-   <div className="bg-white py-20">
+   <div className="bg-white py-25">
     <Container>
         <Flex className={"justify-between"}>
             <div className="">
