@@ -36,7 +36,7 @@ const AboutUs = () => {
              <div className="flex items-center gap-x-12 mt-10">
             <div className="">
               <p className="text-sm font-inter pb-4">Birthday <span className="ml-6 text-[#CCCCCC]">|</span> <span className="ml-4 text-[#555A64]">6th October 1997</span></p>
-              <p className="text-sm font-inter pb-4">Address <span className="ml-6 text-[#CCCCCC]">|</span> <span className="ml-4 text-[#555A64]">Lalbagh, Dhaka</span></p>
+              <p className="text-sm font-inter pb-4">Address <span className="ml-6 text-[#CCCCCC]">|</span> <span className="ml-4 text-[#555A64]">Dhaka, Bangladesh</span></p>
             </div>
             <div className="">
               <p className="text-sm font-inter pb-4">E-mail <span className="ml-6 text-[#CCCCCC]">|</span> <span className="ml-4 text-[#555A64]">riemehasan06@gmail.com</span></p>

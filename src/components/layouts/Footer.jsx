@@ -62,7 +62,7 @@ const Footer = () => {
                     My Address
                   </h5>
                   <p className="text-sm font-inter text-[#555A64]">
-                    Lalbagh, Dhaka
+                    Dhaka, Bangladesh
                   </p>
                 </div>
               </div>
