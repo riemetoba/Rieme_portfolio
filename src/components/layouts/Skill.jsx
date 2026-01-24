@@ -12,14 +12,14 @@ const Skill = () => {
   const [react, setReact] = useState(0);
 
   useEffect(() => {
-    setTimeout(() => {
+    setTimeout(() => {  // note:এই use case-এ setTimeout ব্যবহার করা হয়েছে animation শুরু করার সময়টা একটু পিছিয়ে দিতে|
       setHtml(90);
       setCss(86);
       setJs(65);
       setReact(80);
-    }, 200);
+    }, 400);
   }, []);
-
+// **************
   return (
     <div className="py-25">
       <Container>
