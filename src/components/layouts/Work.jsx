@@ -219,7 +219,7 @@ const Work = () => {
             href="https://github.com/riemetoba"
             target="_blank"
             rel="noreferrer"
-            className="group inline-flex items-center gap-2 px-10 py-4 border-2 border-org text-org font-bold uppercase tracking-widest text-sm rounded hover:bg-org hover:text-white transition-all duration-300"
+            className="group inline-flex items-center gap-2 py-3 px-6 mt-9 bg-org text-[#ffffff] font-inter font-medium uppercase hover:text-white hover:bg-black duration-300"
           >
             View All Projects
             <FaArrowRight className="group-hover:translate-x-1 transition-transform" />

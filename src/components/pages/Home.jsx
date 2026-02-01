@@ -3,6 +3,7 @@ import AboutUs from "../layouts/AboutMe";
 import Service from "../layouts/Service";
 import Skill from "../layouts/Skill";
 import Work from "../layouts/Work";
+import Testimonial from "../layouts/Testimonial";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Skill/>
       <Service/>
       <Work/>
+      <Testimonial/>
     </>
   );
 };

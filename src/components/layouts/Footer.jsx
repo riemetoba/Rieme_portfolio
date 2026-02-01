@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#EAEDF2] py-25">
+      <div className="py-25">
         <Container>
           <h3 className="font-inter uppercase text-3xl font-black relative">
             Get in touch
@@ -19,7 +19,7 @@ const Footer = () => {
             A passionate front-end developer based in bangladesh
           </p>
           <Flex className={"justify-between items-start"}>
-            <div className="bg-white w-170 h-90.5 px-6 py-5 shadow-2xl">
+            <div className="bg-[#ffffff] w-170 h-90.5 px-6 py-5 drop-shadow-xl/50">
               <p className="font-inter uppercase text-[12px] text-[#090A0C] font-bold">
                 say something
               </p>
@@ -53,7 +53,7 @@ const Footer = () => {
               />
             </div>
             <div className="flex items-start flex-col gap-y-7">
-              <div className="w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 shadow-2xl">
+              <div className="w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
                 <div className="w-10 h-10 rounded-full bg-org flex items-center justify-center">
                   <IoLocationOutline className="text-white text-2xl" />
                 </div>
@@ -66,7 +66,7 @@ const Footer = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 shadow-2xl">
+              <div className="w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
                 <div className="w-10 h-10 rounded-full bg-org flex items-center justify-center">
                   <TfiMobile className="text-white text-2xl" />
                 </div>
@@ -79,7 +79,7 @@ const Footer = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 shadow-2xl">
+              <div className="w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
                 <div className="w-10 h-10 rounded-full bg-org flex items-center justify-center">
                   <TfiEmail className="text-white text-[22px]" />
                 </div>
