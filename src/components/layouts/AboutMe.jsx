@@ -35,7 +35,7 @@ const AboutUs = () => {
             <p className="text-[#555A64] text-base font-inter w-150 leading-6.5">I’m a frontend developer who enjoys turning Figma designs into clean, responsive, and engaging user interfaces. I work with HTML, Bootstrap, Tailwind CSS, and React.js to build modern, component-based web experiences. I care deeply about visual accuracy, usability, and writing maintainable code that brings designs to life. Check out my Portfolio</p>
              <div className="flex items-center gap-x-12 mt-10">
             <div className="">
-              <p className="text-sm font-inter pb-4">Birthday <span className="ml-6 text-[#CCCCCC]">|</span> <span className="ml-4 text-[#555A64]">6th October 1997</span></p>
+              <p className="text-sm font-inter pb-4">Birthday <span className="ml-6 text-[#CCCCCC]">|</span> <span className="ml-4 text-[#555A64]">26th December 1997</span></p>
               <p className="text-sm font-inter pb-4">Address <span className="ml-6 text-[#CCCCCC]">|</span> <span className="ml-4 text-[#555A64]">Dhaka, Bangladesh</span></p>
             </div>
             <div className="">
