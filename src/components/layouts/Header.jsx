@@ -16,7 +16,7 @@ const Header = () => {
           <div className="">
             <ul className="flex items-center justify-between gap-x-7">
               <Link to={"/"}>
-              <li className="font-inter text-sm text-org uppercase">Home</li>
+              <li className="font-inter text-sm hover:text-org duration-300 uppercase">Home</li>
               </Link>
               <Link to={"/aboutus"}>
               <li className="font-inter text-sm hover:text-org duration-300 uppercase">About Me</li>
