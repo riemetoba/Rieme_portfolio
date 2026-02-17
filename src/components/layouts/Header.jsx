@@ -1,4 +1,6 @@
 // 
+// This is just for learning purpose
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Container from "../Container";
