@@ -1,4 +1,4 @@
-// 
+//
 // This is just for learning purpose
 
 import { useState } from "react";
@@ -39,7 +39,10 @@ const Header = () => {
           <div className="hidden lg:block">
             <ul className="flex items-center gap-x-7">
               {navLinks.map((link, index) => (
-                <li key={index} className="font-inter text-sm hover:text-org duration-300 uppercase">
+                <li
+                  key={index}
+                  className="font-inter text-sm hover:text-org duration-300 uppercase"
+                >
                   <Link to={link.path}>{link.name}</Link>
                 </li>
               ))}
@@ -53,13 +56,35 @@ const Header = () => {
           >
             {showMenu ? (
               // Close Icon (X)
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-7 h-7"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
               </svg>
             ) : (
               // Hamburger Icon
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-7 h-7"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
               </svg>
             )}
           </div>
@@ -74,7 +99,10 @@ const Header = () => {
           >
             <ul className="flex flex-col items-center gap-y-6">
               {navLinks.map((link, index) => (
-                <li key={index} className="font-inter text-sm hover:text-org duration-300 uppercase">
+                <li
+                  key={index}
+                  className="font-inter text-sm hover:text-org duration-300 uppercase"
+                >
                   <Link to={link.path} onClick={handleMenuClick}>
                     {link.name}
                   </Link>
