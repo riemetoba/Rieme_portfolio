@@ -3,10 +3,17 @@ import { Link } from "react-router-dom";
 import Container from "../Container";
 
 import Flex from "../Flex";
+import { useState } from "react";
+import { CiMenuBurger } from "react-icons/ci";
+import { IoMdClose } from "react-icons/io";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState (false);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen)
+  }
   return (
-    <div className="bg-white py-4 fixed z-10 w-full">
+    <nav className="bg-white py-4 fixed z-10 w-full">
       <Container>
         <Flex className={"justify-between"}>
           <Link to={"/"}>
@@ -14,9 +21,23 @@ const Header = () => {
               <h2 className="font-inter font-medium text-2xl">RIEME</h2>
             </div>
           </Link>
-
+          {!isOpen && (
+            <div onClick={toggleMenu} className="cursor-pointer text-2xl font-bold md:hidden">
+              <CiMenuBurger/>
+            </div>
+          )}
+          {isOpen && (
+            <div onClick={toggleMenu} className="cursor-pointer text-2xl font-bold md:hidden">
+              <IoMdClose/>
+            </div>
+          )}
+          {isOpen ? (
+<div className=""></div>
+          ) : (
+<div className=""></div>
+          )}
           <div className="">
-            <ul className="flex items-center justify-between gap-x-7">
+            <ul className="md:flex items-center md:justify-between md:gap-x-7 hidden">
               <Link to={"/"}>
                 <li className="font-inter text-sm hover:text-org duration-300 uppercase">
                   Home
@@ -56,7 +77,7 @@ const Header = () => {
           </div>
         </Flex>
       </Container>
-    </div>
+    </nav>
   );
 };
 
