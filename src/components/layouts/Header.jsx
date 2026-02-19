@@ -8,11 +8,10 @@ import { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-   const navItems = [
+  const navItems = [
     { name: "Home", path: "/" },
     { name: "About Me", path: "/aboutme" },
     { name: "Services", path: "/" },
@@ -21,17 +20,16 @@ const Header = () => {
     { name: "Contact", path: "/" },
   ];
 
-   return (
+  return (
     <nav className="bg-white py-4 fixed w-full z-10 shadow">
       <Container>
         <Flex className="justify-between items-center">
-
           {/* Logo */}
           <Link to="/">
             <h2 className="font-inter font-medium text-2xl px-2">RIEME</h2>
           </Link>
-
-          {/* Desktop Menu */}
+          {/* Logo */}
+          {/* Desktop menu */}
           <ul className="hidden sm:flex items-center gap-x-7">
             {navItems.map((item, index) => (
               <li key={index}>
@@ -44,13 +42,14 @@ const Header = () => {
               </li>
             ))}
           </ul>
+          {/* Desktop menu */}
 
           {/* Mobile button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="sm:hidden text-2xl px-2"
           >
-            {isOpen ? <IoMdClose/> : <GiHamburgerMenu/>}
+            {isOpen ? <IoMdClose /> : <GiHamburgerMenu />}
           </button>
           {/* Mobile button */}
         </Flex>
@@ -76,7 +75,6 @@ const Header = () => {
           </ul>
         </div>
         {/* For mobile */}
-
       </Container>
     </nav>
   );
