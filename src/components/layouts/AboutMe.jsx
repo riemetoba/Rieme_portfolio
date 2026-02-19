@@ -8,7 +8,7 @@ import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
 
 
 
-const AboutUs = () => {
+const AboutMe = () => {
   return (
     <div className="bg-[#EAEDF2] py-25">
       <Container>
@@ -51,4 +51,4 @@ const AboutUs = () => {
   )
 }
 
-export default AboutUs
+export default AboutMe

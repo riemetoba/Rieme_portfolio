@@ -3,117 +3,80 @@ import { Link } from "react-router-dom";
 import Container from "../Container";
 
 import Flex from "../Flex";
+
 import { useState } from "react";
-import { CiMenuBurger } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
+import { GiHamburgerMenu } from "react-icons/gi";
+
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState (false);
-  const toggleMenu = () => {
-    setIsOpen(!isOpen)
-  }
-  return (
-    <nav className="bg-white py-4 fixed z-10 w-full">
+  const [isOpen, setIsOpen] = useState(false);
+
+   const navItems = [
+    { name: "Home", path: "/" },
+    { name: "About Me", path: "/aboutme" },
+    { name: "Services", path: "/" },
+    { name: "Portfolio", path: "/" },
+    { name: "Blog", path: "/" },
+    { name: "Contact", path: "/" },
+  ];
+
+   return (
+    <nav className="bg-white py-4 fixed w-full z-10 shadow">
       <Container>
-        <Flex className={"justify-between"}>
-          <Link to={"/"}>
-            <div className="">
-              <h2 className="font-inter font-medium text-2xl">RIEME</h2>
-            </div>
+        <Flex className="justify-between items-center">
+
+          {/* Logo */}
+          <Link to="/">
+            <h2 className="font-inter font-medium text-2xl px-2">RIEME</h2>
           </Link>
-          {!isOpen && (
-            <div onClick={toggleMenu} className="cursor-pointer text-2xl font-bold md:hidden">
-              <CiMenuBurger/>
-            </div>
-          )}
-          {isOpen && (
-            <div onClick={toggleMenu} className="cursor-pointer text-2xl font-bold md:hidden">
-              <IoMdClose/>
-            </div>
-          )}
-          {isOpen ? (
-<div className="bg-white overflow-y-hidden fixed z-10 top-0 left-0 w-screen flex flex-col">
-            <ul className="md:flex items-center md:justify-between md:gap-x-7 hidden">
-              <Link to={"/"}>
-                <li className="font-inter text-sm hover:text-org duration-300 uppercase">
-                  Home
-                </li>
-              </Link>
 
-              <Link to={"/aboutus"}>
-                <li className="font-inter text-sm hover:text-org duration-300 uppercase">
-                  About Me
-                </li>
-              </Link>
+          {/* Desktop Menu */}
+          <ul className="hidden sm:flex items-center gap-x-7">
+            {navItems.map((item, index) => (
+              <li key={index}>
+                <Link
+                  to={item.path}
+                  className="font-inter text-sm hover:text-org duration-300 uppercase"
+                >
+                  {item.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
 
-              <Link to={"/"}>
-                <li className="font-inter text-sm hover:text-org duration-300 uppercase">
-                  services
-                </li>
-              </Link>
-
-              <Link to={"/"}>
-                <li className="font-inter text-sm hover:text-org duration-300 uppercase">
-                  Portfolio
-                </li>
-              </Link>
-
-              <Link to={"/"}>
-                <li className="font-inter text-sm hover:text-org duration-300 uppercase">
-                  Blog
-                </li>
-              </Link>
-
-              <Link to={"/"}>
-                <li className="font-inter text-sm hover:text-org duration-300 uppercase">
-                  Contact
-                </li>
-              </Link>
-            </ul>
-          </div>
-          ) : (
-<div className=""></div>
-          )}
-          <div className="">
-            <ul className="md:flex items-center md:justify-between md:gap-x-7 hidden">
-              <Link to={"/"}>
-                <li className="font-inter text-sm hover:text-org duration-300 uppercase">
-                  Home
-                </li>
-              </Link>
-
-              <Link to={"/aboutus"}>
-                <li className="font-inter text-sm hover:text-org duration-300 uppercase">
-                  About Me
-                </li>
-              </Link>
-
-              <Link to={"/"}>
-                <li className="font-inter text-sm hover:text-org duration-300 uppercase">
-                  services
-                </li>
-              </Link>
-
-              <Link to={"/"}>
-                <li className="font-inter text-sm hover:text-org duration-300 uppercase">
-                  Portfolio
-                </li>
-              </Link>
-
-              <Link to={"/"}>
-                <li className="font-inter text-sm hover:text-org duration-300 uppercase">
-                  Blog
-                </li>
-              </Link>
-
-              <Link to={"/"}>
-                <li className="font-inter text-sm hover:text-org duration-300 uppercase">
-                  Contact
-                </li>
-              </Link>
-            </ul>
-          </div>
+          {/* Mobile button */}
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="sm:hidden text-2xl px-2"
+          >
+            {isOpen ? <IoMdClose/> : <GiHamburgerMenu/>}
+          </button>
+          {/* Mobile button */}
         </Flex>
+
+        {/* For mobile */}
+        <div
+          className={`sm:hidden overflow-hidden transition-all duration-300 ${
+            isOpen ? "max-h-96 mt-4" : "max-h-0"
+          }`}
+        >
+          <ul className="flex flex-col items-center gap-y-4 py-4 bg-white">
+            {navItems.map((item, index) => (
+              <li key={index}>
+                <Link
+                  to={item.path}
+                  onClick={() => setIsOpen(false)}
+                  className="font-inter text-sm hover:text-org duration-300 uppercase"
+                >
+                  {item.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        {/* For mobile */}
+
       </Container>
     </nav>
   );
