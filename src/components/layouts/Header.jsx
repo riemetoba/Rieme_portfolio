@@ -32,7 +32,7 @@ const Header = () => {
             </div>
           )}
           {isOpen ? (
-<div className="bg-white overflow-y-hidden fixed z-10 top-0 left-0 w-screen">
+<div className="bg-white overflow-y-hidden fixed z-10 top-0 left-0 w-screen flex flex-col">
             <ul className="md:flex items-center md:justify-between md:gap-x-7 hidden">
               <Link to={"/"}>
                 <li className="font-inter text-sm hover:text-org duration-300 uppercase">
