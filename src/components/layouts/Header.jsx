@@ -21,7 +21,7 @@ const Header = () => {
   ];
 
   return (
-    <nav className="bg-white py-4 fixed w-full z-10 shadow">
+    <nav className="bg-white py-2 md:py-4 fixed w-screen md:w-full z-10 shadow">
       <Container>
         <Flex className="justify-between items-center">
           {/* Logo */}
