@@ -19,19 +19,19 @@ const AboutMe = () => {
          <div className="border-white border-12 rounded relative">
           <Image src={aboutFake}/>
          <Link to={"https://github.com/riemetoba"}>
-          <div className="absolute flex items-center justify-center w-13 h-15 bg-org top-8 left-0 border-white border-b-10 border-r-10 border-t-10"><FaGithub className="text-[22px]  text-white"/></div>
+          <div className="absolute flex items-center justify-center w-10 h-12 md:w-13 md:h-15 bg-org top-8 left-0 border-white border-b-10 border-r-10 border-t-10"><FaGithub className="text-[22px]  text-white"/></div>
          </Link>
          <Link to={"https://www.facebook.com/profile.php?id=100016533453052"}>
-          <div className="absolute flex items-center justify-center w-13 h-15 bg-org top-20 left-0 border-white border-b-10 border-r-10 border-t-10"><FaFacebook className="text-[22px]  text-white"/></div>
+          <div className="absolute flex items-center justify-center w-10 h-12 md:w-13 md:h-15 bg-org top-20 left-0 border-white border-b-10 border-r-10 border-t-10"><FaFacebook className="text-[22px]  text-white"/></div>
          </Link>
          <Link to={"https://www.linkedin.com/in/rieme-hasan-291767398"}>
-          <div className="absolute flex items-center justify-center w-13 h-15 bg-org top-32 left-0 border-white border-b-10 border-r-10 border-t-10"><FaLinkedin className="text-[22px]  text-white"/></div>
+          <div className="absolute flex items-center justify-center w-10 h-12 md:w-13 md:h-15 bg-org top-32 left-0 border-white border-b-10 border-r-10 border-t-10"><FaLinkedin className="text-[22px]  text-white"/></div>
          </Link>
          </div>
           {/* Image er jonno  */}
-          <div className="">
-            <h3 className="text-2xl font-inter font-bold">I'M Rieme Hasan</h3>
-            <p className="text-[20px] font-inter pt-3 pb-6">A Passionate <span className="text-org">Front-End</span> Developer Based in <span className="text-org"> Bangladesh</span></p>
+          <div className="ml-12 text-left">
+            <h3 className="md:text-2xl text-lg font-inter font-bold">I'M Rieme Hasan</h3>
+            <p className="md:text-[20px] text-base font-inter pt-3 pb-6">A Passionate <span className="text-org">Front-End</span> Developer Based in <span className="text-org"> Bangladesh</span></p>
             <p className="text-[#555A64] text-base font-inter w-150 leading-6.5">I’m a frontend developer who enjoys turning Figma designs into clean, responsive, and engaging user interfaces. I work with HTML, Bootstrap, Tailwind CSS, and React.js to build modern, component-based web experiences. I care deeply about visual accuracy, usability, and writing maintainable code that brings designs to life. Check out my Portfolio</p>
              <div className="flex items-center gap-x-12 mt-10">
             <div className="">
