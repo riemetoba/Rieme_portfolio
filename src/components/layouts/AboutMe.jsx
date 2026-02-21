@@ -29,8 +29,8 @@ const AboutMe = () => {
          </Link>
          </div>
           {/* Image er jonno  */}
-          <div className="ml-12 text-left">
-            <h3 className="md:text-2xl text-lg font-inter font-bold">I'M Rieme Hasan</h3>
+          <div className="w-98 mt-4 ml-2">
+            <h3 className="text-2xl font-inter font-bold">I'M Rieme Hasan</h3>
             <p className="md:text-[20px] text-base font-inter pt-3 pb-6">A Passionate <span className="text-org">Front-End</span> Developer Based in <span className="text-org"> Bangladesh</span></p>
             <p className="text-[#555A64] text-base font-inter w-150 leading-6.5">I’m a frontend developer who enjoys turning Figma designs into clean, responsive, and engaging user interfaces. I work with HTML, Bootstrap, Tailwind CSS, and React.js to build modern, component-based web experiences. I care deeply about visual accuracy, usability, and writing maintainable code that brings designs to life. Check out my Portfolio</p>
              <div className="flex items-center gap-x-12 mt-10">
