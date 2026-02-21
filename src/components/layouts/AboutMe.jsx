@@ -14,7 +14,7 @@ const AboutMe = () => {
       <Container>
          <h3 className="font-inter text-2xl md:text-3xl font-black ml-2 relative">ABOUT ME <span className="absolute left-0 -bottom-2 w-9 h-0.5 bg-org"></span></h3>
         <p className="font-inter uppercase text-sm text-[#555A64] pt-5 mb-10 ml-2">A passionate front-end developer based in bangladesh</p>
-        <Flex className={"md:justify-between flex flex-col mt-20"}>
+        <div className={"md:justify-between flex md:flex-row flex-col mt-20"}>
           {/* Image er jonno  */}
          <div className="border-white border-12 rounded relative">
           <Image src={aboutFake}/>
@@ -45,7 +45,7 @@ const AboutMe = () => {
           </div>
          <button className="py-3 px-6 mt-9 bg-org text-[#ffffff] font-inter font-medium uppercase hover:text-white hover:bg-black duration-300">Download CV</button>
           </div>
-        </Flex>
+        </div>
       </Container>
     </div>
   )
