@@ -11,15 +11,15 @@ const Footer = () => {
     <>
       <div className="py-25">
         <Container>
-          <h3 className="font-inter uppercase text-3xl font-black relative">
+          <h3 className="font-inter text-2xl md:text-3xl font-black inline-block relative px-5 lg:px-0">
             Get in touch
-            <span className="absolute left-0 -bottom-2 w-9 h-0.5 bg-org"></span>
+            <span className="absolute left-5 lg:left-0 -bottom-2 w-9 h-0.5 bg-org"></span>
           </h3>
-          <p className="font-inter uppercase text-sm text-[#555A64] pt-5 mb-10">
+          <p className="font-inter uppercase text-sm text-[#555A64] pt-5 mb-10 px-5 lg:px-0">
             A passionate front-end developer based in bangladesh
           </p>
-          <Flex className={"justify-between items-start"}>
-            <div className="bg-[#ffffff] w-170 h-90.5 px-6 py-5 drop-shadow-xl/50">
+          <div className={"flex flex-col lg:flex-row lg:justify-between lg:items-start px-5 lg:px-0"}>
+            <div className="bg-[#ffffff] w-full lg:w-170 h-auto lg:h-90.5 px-10 lg:px-6 py-5 drop-shadow-xl/50">
               <p className="font-inter uppercase text-[12px] text-[#090A0C] font-bold">
                 say something
               </p>
@@ -43,7 +43,7 @@ const Footer = () => {
               <input
                 type="text"
                 placeholder="Your Message *"
-                className="border-b outline-none border-b-[#CCCCCC] hover:border-b-org duration-300 w-full mt-15"
+                className="border-b outline-none border-b-[#CCCCCC] hover:border-b-org duration-300 w-full mt-10 lg:mt-15"
               />
               <Button
                 className={
@@ -52,8 +52,8 @@ const Footer = () => {
                 btnText={"send message"}
               />
             </div>
-            <div className="flex items-start flex-col gap-y-7">
-              <div className="w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
+            <div className="flex items-start flex-col gap-y-7 py-8 lg:py-0">
+              <div className="w-full lg:w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
                 <div className="w-10 h-10 rounded-full bg-org flex items-center justify-center">
                   <IoLocationOutline className="text-white text-2xl" />
                 </div>
@@ -66,7 +66,7 @@ const Footer = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
+              <div className="w-full lg:w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
                 <div className="w-10 h-10 rounded-full bg-org flex items-center justify-center">
                   <TfiMobile className="text-white text-2xl" />
                 </div>
@@ -79,7 +79,7 @@ const Footer = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
+              <div className="w-full lg:w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
                 <div className="w-10 h-10 rounded-full bg-org flex items-center justify-center">
                   <TfiEmail className="text-white text-[22px]" />
                 </div>
@@ -93,13 +93,13 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-          </Flex>
+          </div>
         </Container>
       </div>
       <div className="bg-black py-8">
         <Container>
-          <Flex className={"justify-between text-[#555A64]"}>
-            <div className="flex items-center gap-x-5 text-2xl">
+          <div className={"flex flex-col lg:flex-row lg:justify-between text-[#555A64] px-5 lg:px-0"}>
+            <div className="flex items-center justify-center gap-x-5 text-2xl">
               <Link to={"https://github.com/riemetoba"}>
                 <FaGithub />
               </Link>
@@ -112,11 +112,11 @@ const Footer = () => {
                 <FaLinkedin />
               </Link>
             </div>
-            <div className="flex items-center gap-x-1 text-base font-medium font-inter">
+            <div className="flex items-center justify-center gap-x-1 py-5 lg:py-0 text-base font-medium font-inter">
             <FaRegCopyright/>
             <p>2026 copyright all right reserved</p>
             </div>
-          </Flex>
+          </div>
         </Container>
       </div>
     </>
