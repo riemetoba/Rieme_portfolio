@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import Container from "../Container";
-import Flex from "../Flex";
 import Image from "../Image";
 import aboutFake from "/src/assets/aboutFake.png";
 import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
@@ -18,7 +17,11 @@ const AboutMe = () => {
           A passionate front-end developer based in bangladesh
         </p>
         {/* Flex start  */}
-        <div className={"flex lg:flex-row flex-col lg:items-center gap-12 lg:justify-between px-5 lg:px-0"}>
+        <div
+          className={
+            "flex lg:flex-row flex-col lg:items-center gap-12 lg:justify-between px-5 lg:px-0"
+          }
+        >
           {/* Left side start  */}
           {/* Image section  */}
           <div className="bg-[#ffffff] p-4 max-w-sm w-full rounded relative">
@@ -70,7 +73,7 @@ const AboutMe = () => {
               accuracy, usability, and writing maintainable code that brings
               designs to life. Check out my Portfolio
             </p>
-            {/* Information part  */}
+            {/* Information part start */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 mt-8 text-sm">
               <div className="">
                 <p className="text-sm font-inter pb-4">
@@ -100,6 +103,7 @@ const AboutMe = () => {
             <button className="py-3 px-6 mt-9 bg-org text-[#ffffff] font-inter font-medium uppercase hover:text-white hover:bg-black duration-300">
               Download CV
             </button>
+            {/* Information part end */}
           </div>
           {/* Right side end  */}
         </div>
