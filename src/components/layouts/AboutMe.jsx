@@ -82,19 +82,19 @@ const AboutMe = () => {
                     26th December 1997
                   </span>
                 </p>
-                <p className="text-sm font-inter pb-4">
+                <p className="text-xs font-inter pb-4">
                   Address <span className="ml-6 text-[#CCCCCC]">|</span>{" "}
                   <span className="ml-4 text-[#555A64]">Dhaka, Bangladesh</span>
                 </p>
               </div>
               <div className="">
-                <p className="text-sm font-inter pb-4">
+                <p className="text-xs font-inter pb-4">
                   E-mail <span className="ml-9 md:ml-6 text-[#CCCCCC]">|</span>{" "}
                   <span className="ml-4 text-[#555A64]">
                     riemehasan06@gmail.com
                   </span>
                 </p>
-                <p className="text-sm font-inter pb-4">
+                <p className="text-xs font-inter pb-4">
                   Phone <span className="ml-9 md:ml-6 text-[#CCCCCC]">|</span>{" "}
                   <span className="ml-4 text-[#555A64]">01577043696</span>
                 </p>
