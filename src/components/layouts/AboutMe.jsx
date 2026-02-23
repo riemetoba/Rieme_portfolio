@@ -76,7 +76,7 @@ const AboutMe = () => {
             {/* Information part start */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 mt-8 text-sm">
               <div className="">
-                <p className="text-sm font-inter pb-4">
+                <p className="text-xs font-inter pb-4">
                   Birthday <span className="ml-6 text-[#CCCCCC]">|</span>{" "}
                   <span className="ml-4 text-[#555A64]">
                     26th December 1997
