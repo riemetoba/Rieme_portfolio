@@ -90,7 +90,7 @@ const AboutMe = () => {
               <div className="">
                 <p className="text-xs font-inter pb-4">
                   E-mail <span className="ml-9 md:ml-6 text-[#CCCCCC]">|</span>{" "}
-                  <span className="ml-4 text-[#555A64] text-[10px]">
+                  <span className="ml-4 text-[#555A64] text-[10px] sm:text-xs">
                     riemehasan06@gmail.com
                   </span>
                 </p>

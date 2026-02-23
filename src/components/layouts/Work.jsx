@@ -10,16 +10,16 @@ const Work = () => {
     <div id="projects" className="py-25 bg-[#ffffff]">
       <Container>
         {/* Header Section */}
-        <h3 className="font-inter uppercase text-3xl font-black relative">
+        <h3 className="font-inter uppercase text-2xl :lg:text-3xl font-black relative px-5 lg:px-0">
             Latest Work
-            <span className="absolute left-0 -bottom-2 w-9 h-0.5 bg-org"></span>
+            <span className="absolute left-5 lg:left-0 -bottom-2 w-9 h-0.5 bg-org"></span>
           </h3>
-          <p className="font-inter uppercase text-sm text-[#555A64] pt-5 mb-10">
+          <p className="font-inter uppercase text-sm text-[#555A64] pt-5 mb-10 px-5 lg:px-0">
             A passionate front-end developer based in bangladesh
           </p>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 px-5 lg:px-0">
           {/* ================= Project 1 Start ================= */}
           <div className="group bg-white rounded-3xl border-gray-300 border overflow-hidden transition-all duration-500 hover:shadow-[0_20px_50px_rgba(0,0,0,0.1)] hover:-translate-y-2">
             {/* Image Container */}
