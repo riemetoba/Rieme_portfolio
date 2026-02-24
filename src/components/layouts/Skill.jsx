@@ -1,25 +1,26 @@
 import Container from "../Container";
-import { Field, FieldLabel } from "@/components/ui/field";
-import { Progress } from "@/components/ui/progress";
+
 // *************
 import { useEffect, useState } from "react";
+import SkillBar from "../SkillBar";
 
 const Skill = () => {
-    // ***********
-    const [html, setHtml] = useState(0);
+  // ***********
+  const [html, setHtml] = useState(0);
   const [css, setCss] = useState(0);
   const [js, setJs] = useState(0);
   const [react, setReact] = useState(0);
 
   useEffect(() => {
-    setTimeout(() => {  // note:এই use case-এ setTimeout ব্যবহার করা হয়েছে animation শুরু করার সময়টা একটু পিছিয়ে দিতে|
+    setTimeout(() => {
+      // note:এই use case-এ setTimeout ব্যবহার করা হয়েছে animation শুরু করার সময়টা একটু পিছিয়ে দিতে|
       setHtml(90);
       setCss(86);
       setJs(65);
       setReact(80);
     }, 400);
   }, []);
-// **************
+  // **************
   return (
     <div className="py-25">
       <Container>
@@ -31,34 +32,10 @@ const Skill = () => {
           A passionate front-end developer based in bangladesh
         </p>
         {/* shadCN  */}
-        <Field className="w-full max-w-sm px-5 lg:px-0">
-          <FieldLabel htmlFor="progress-upload">
-            <span className="font-inter text-[18px]">HTML</span>
-            <span className="font-inter text-sm text-[#555A64] ml-66">90%</span>
-          </FieldLabel>
-          <Progress value={html} />
-        </Field>
-        <Field className="w-full max-w-sm px-5 lg:px-0">
-          <FieldLabel htmlFor="progress-upload">
-            <span className="font-inter text-[18px]">CSS</span>
-            <span className="ml-67 font-inter text-sm text-[#555A64]">86%</span>
-          </FieldLabel>
-          <Progress value={css} />
-        </Field>
-        <Field className="w-full max-w-sm px-5 lg:px-0">
-          <FieldLabel htmlFor="progress-upload">
-            <span className="font-inter text-[18px]">JAVASRCIPT</span>
-            <span className="ml-28 font-inter text-sm text-[#555A64]">65%</span>
-          </FieldLabel>
-          <Progress value={js} />
-        </Field>
-        <Field className="w-full max-w-sm px-5 lg:px-0">
-          <FieldLabel htmlFor="progress-upload">
-            <span className="font-inter text-[18px]">REACT</span>
-            <span className="ml-54 font-inter text-sm text-[#555A64]">80%</span>
-          </FieldLabel>
-          <Progress value={react} />
-        </Field>
+        <SkillBar label="HTML" value={html} />
+        <SkillBar label="CSS" value={css} />
+        <SkillBar label="JAVASCRIPT" value={js} />
+        <SkillBar label="REACT" value={react} />
         {/* shadCN  */}
       </Container>
     </div>

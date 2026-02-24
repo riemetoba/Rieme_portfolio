@@ -112,7 +112,7 @@ const Footer = () => {
                 <FaLinkedin />
               </Link>
             </div>
-            <div className="flex items-center justify-center gap-x-1 py-5 lg:py-0 text-base font-medium font-inter">
+            <div className="flex items-center justify-center gap-x-1 py-5 lg:py-0 text-sm lg:text-base font-medium font-inter">
             <FaRegCopyright/>
             <p>2026 copyright all right reserved</p>
             </div>
