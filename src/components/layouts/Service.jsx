@@ -13,8 +13,14 @@ const Service = () => {
   return (
     <div className="bg-[#EAEDF2] py-25">
       <Container>
-        <h3 className="font-inter text-3xl font-black relative">MY SERVICES <span className="absolute left-0 -bottom-2 w-9 h-0.5 bg-org"></span></h3>
-        <p className="font-inter uppercase text-sm text-[#555A64] pt-5 mb-10">A passionate front-end developer based in bangladesh</p>
+       {/* Section title  */}
+        <h3 className="font-inter text-2xl md:text-3xl font-black inline-block relative px-5 lg:px-0">
+          MY SERVICES
+          <span className="absolute left-5 -bottom-2 lg:left-0 w-9 h-0.5 bg-org"></span>
+        </h3>
+        <p className="font-inter uppercase text-sm text-[#555A64] pt-5 mb-10 px-5 lg:px-0">
+          A passionate front-end developer based in bangladesh
+        </p>
         <Flex className={"justify-between"}>
             <div className="w-85 h-72 bg-white rounded-[5px] mt-8 px-7 py-9 shadow-2xl hover:bg-org duration-300 group">
                 <Image className={"group-hover:brightness-0 group-hover:invert duration-300"} src={servOne}/>

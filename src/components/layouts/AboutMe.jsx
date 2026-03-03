@@ -19,12 +19,12 @@ const AboutMe = () => {
         {/* Flex start  */}
         <div
           className={
-            "flex lg:flex-row flex-col lg:items-center gap-12 lg:justify-between px-5 lg:px-0"
+            "flex lg:flex-row flex-col lg:items-center gap-12 lg:justify-between"
           }
         >
           {/* Left side start  */}
           {/* Image section  */}
-          <div className="bg-[#ffffff] p-4 max-w-sm w-full rounded relative">
+          <div className="bg-[#ffffff] p-4 max-w-sm w-full rounded relative px-6 md:px-0">
             <Image src={aboutFake} className={"w-full h-auto"} />
             {/* Image icons  */}
             <div className="absolute left-4 top-8 flex flex-col">
