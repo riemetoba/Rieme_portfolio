@@ -22,7 +22,7 @@ const Service = () => {
           A passionate front-end developer based in bangladesh
         </p>
         {/* Flex start  */}
-        <Flex className={"lg:justify-between flex-col gap-y-2 lg:gap-y-0"}>
+        <Flex className={"lg:justify-between flex-col lg:flex-row gap-y-2 lg:gap-y-0"}>
             <div className="mx-5 lg:mx-0 md:w-85 md:h-72 bg-white rounded-[5px] mt-8 px-7 py-9 shadow-2xl hover:bg-org duration-300 group">
                 <Image className={"group-hover:brightness-0 group-hover:invert duration-300"} src={servOne}/>
                 <h3 className="my-5 font-inter text-[18px] group-hover:text-white duration-300">Figma to Code</h3>
