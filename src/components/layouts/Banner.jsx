@@ -1,5 +1,4 @@
 import Container from "../Container"
-import Flex from "../Flex"
 import Image from "../Image"
 import tobaNew from "/src/assets/tobaNew.webp"
 
@@ -8,7 +7,7 @@ const Banner = () => {
   return (
    <div className="bg-white py-10 lg:py-25">
     <Container>
-        <Flex className={"justify-between"}>
+        <div className={"lg:justify-between items-center flex flex-col gap-y-5 lg:gap-y-0 lg:flex-row"}>
             <div className="px-5 lg:px-0">
                 <h3 className="pt-6 text-xl lg:text-3xl font-inter font-medium">Hello there</h3>
                 <h1 className="text-4xl lg:text-6xl font-inter font-bold py-4">Rieme Hasan</h1>
@@ -22,7 +21,7 @@ const Banner = () => {
             <div className="">
                 <Image src={tobaNew}/>
             </div>
-        </Flex>
+        </div>
     </Container>
    </div>
   )
