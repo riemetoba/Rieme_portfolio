@@ -98,7 +98,7 @@ const Contact = () => {
       </div>
       <div className="bg-black py-8">
         <Container>
-          <div className={"flex flex-col lg:flex-row lg:justify-between text-[#555A64] px-5 lg:px-0"}>
+          <div className={"flex flex-col md:flex-row md:justify-between text-[#555A64] px-5 md:px-0"}>
             <div className="flex items-center justify-center gap-x-5 text-2xl">
               <Link to={"https://github.com/riemetoba"}>
                 <FaGithub />
@@ -112,7 +112,7 @@ const Contact = () => {
                 <FaLinkedin />
               </Link>
             </div>
-            <div className="flex items-center justify-center gap-x-1 py-5 lg:py-0 text-sm lg:text-base font-medium font-inter">
+            <div className="flex items-center justify-center gap-x-1 py-5 md:py-0 text-sm md:text-base font-medium font-inter">
             <FaRegCopyright/>
             <p>2026 copyright all right reserved</p>
             </div>

@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom"
 import Header from "./Header"
-import Footer from "./Contact"
+import Contact from "./Contact"
 
 
 const RootLayout = () => {
@@ -8,7 +8,7 @@ const RootLayout = () => {
     <>
     <Header/>
     <Outlet/>
-    <Footer/>
+    <Contact/>
     </>
   )
 }
