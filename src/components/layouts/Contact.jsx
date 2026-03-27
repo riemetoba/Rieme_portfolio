@@ -53,7 +53,7 @@ const Contact = () => {
               />
             </div>
             <div className="flex items-start flex-col gap-y-7 py-8 lg:py-0">
-              <div className="w-full lg:w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
+              <div className="w-full lg:w-82.5 h-25.5 bg-white flex items-center gap-x-4 md:gap-x-8 py-5 px-3 md:px-8 drop-shadow-xl/50 ">
                 <div className="w-13 h-13 rounded-full bg-org flex items-center justify-center">
                   <IoLocationOutline className="text-white text-2xl" />
                 </div>
@@ -66,7 +66,7 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-full lg:w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
+              <div className="w-full lg:w-82.5 h-25.5 bg-white flex items-center gap-x-4 md:gap-x-8 py-5 px-3 md:px-8 drop-shadow-xl/50 ">
                 <div className="w-13 h-13 rounded-full bg-org flex items-center justify-center">
                   <TfiMobile className="text-white text-2xl" />
                 </div>
@@ -79,7 +79,7 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-full lg:w-82.5 h-25.5 bg-white flex items-center gap-x-8 py-5 px-8 drop-shadow-xl/50 ">
+              <div className="w-full md:w-82.5 h-25.5 bg-white flex items-center gap-x-4 md:gap-x-8 py-5 px-3 md:px-8 drop-shadow-xl/50 ">
                 <div className="w-13 h-13 rounded-full bg-org flex items-center justify-center">
                   <TfiEmail className="text-white text-[22px]" />
                 </div>
