@@ -2,7 +2,7 @@
 
 const Container = ({ children, className }) => {
   return (
-    <div className={` max-w-295 m-auto ${className}`}>{children}</div>
+    <div className={`lg:max-w-295 lg:m-auto ${className}`}>{children}</div>
   );
 };
 

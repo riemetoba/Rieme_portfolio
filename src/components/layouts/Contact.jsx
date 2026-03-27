@@ -11,14 +11,14 @@ const Contact = () => {
     <>
       <div className="py-25">
         <Container>
-          <h3 className="font-inter text-2xl md:text-3xl font-black inline-block relative px-5 lg:px-0">
+          <h3 className="font-inter text-2xl md:text-3xl font-black inline-block relative px-2 lg:px-0">
             Get in touch
-            <span className="absolute left-5 lg:left-0 -bottom-2 w-9 h-0.5 bg-org"></span>
+            <span className="absolute left-3 lg:left-0 -bottom-2 w-9 h-0.5 bg-org"></span>
           </h3>
-          <p className="font-inter uppercase text-sm text-[#555A64] pt-5 mb-10 px-5 lg:px-0">
+          <p className="font-inter uppercase text-sm text-[#555A64] pt-5 mb-10 px-2 lg:px-0">
             A passionate front-end developer based in bangladesh
           </p>
-          <div className={"flex flex-col lg:flex-row lg:justify-between lg:items-start px-5 lg:px-0"}>
+          <div className={"flex flex-col lg:flex-row lg:justify-between lg:items-start px-2 lg:px-0"}>
             <div className="bg-[#ffffff] w-full lg:w-170 h-auto lg:h-90.5 px-10 lg:px-6 py-5 drop-shadow-xl/50">
               <p className="font-inter uppercase text-[12px] text-[#090A0C] font-bold">
                 say something
@@ -52,7 +52,7 @@ const Contact = () => {
                 btnText={"send message"}
               />
             </div>
-            <div className="flex items-start flex-col gap-y-7 py-8 lg:py-0">
+            <div className="flex items-start flex-col gap-y-7 py-5 lg:py-0">
               <div className="w-full lg:w-82.5 h-25.5 bg-white flex items-center gap-x-4 md:gap-x-8 py-5 px-3 md:px-8 drop-shadow-xl/50 ">
                 <div className="w-13 h-13 rounded-full bg-org flex items-center justify-center">
                   <IoLocationOutline className="text-white text-2xl" />

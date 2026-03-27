@@ -8,7 +8,7 @@ const Banner = () => {
    <div className="bg-white py-10 lg:py-25">
     <Container>
         <div className={"lg:justify-between items-center flex flex-col gap-y-5 lg:gap-y-0 lg:flex-row"}>
-            <div className="px-5 lg:px-0">
+            <div className="px-2 lg:px-0">
                 <h3 className="pt-6 text-xl lg:text-3xl font-inter font-medium">Hello there</h3>
                 <h1 className="text-4xl lg:text-6xl font-inter font-bold py-4">Rieme Hasan</h1>
                 <p className="text-lg lg:text-2xl font-inter font-medium">I am a Frontend Developer</p>

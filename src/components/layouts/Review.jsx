@@ -22,11 +22,11 @@ const Review = () => {
   return (
     <div className="bg-[#EAEDF2] py-25">
       <Container>
-        <h3 className="font-inter text-3xl uppercase font-black relative">
+        <h3 className="font-inter text-3xl uppercase font-black relative px-2 md:px-0">
           Testimonials
-          <span className="absolute left-0 -bottom-2 w-9 h-0.5 bg-org"></span>
+          <span className="absolute left-2 md:left-0 -bottom-2 w-9 h-0.5 bg-org"></span>
         </h3>
-        <p className="font-inter uppercase text-sm text-[#555A64] pt-5 mb-15">
+        <p className="font-inter uppercase text-sm text-[#555A64] pt-5 mb-15 px-2 md:px-0">
           A passionate front-end developer based in bangladesh
         </p>
 

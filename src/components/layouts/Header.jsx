@@ -27,7 +27,7 @@ const Header = () => {
         <Flex className="justify-between items-center">
           {/* Logo */}
           <Link to="/">
-            <h2 className="font-inter font-medium text-2xl px-2">RIEME</h2>
+            <h2 className="font-inter font-medium text-2xl px-2 md:px-0">RIEME</h2>
           </Link>
           {/* Logo */}
           {/* Desktop menu */}

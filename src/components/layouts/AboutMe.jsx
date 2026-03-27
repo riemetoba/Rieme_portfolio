@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Container from "../Container";
 import Image from "../Image";
-import aboutFake from "/src/assets/aboutFake.png";
+import tobaNew from "/src/assets/tobaNew.webp";
 import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
 
 const AboutMe = () => {
@@ -9,28 +9,28 @@ const AboutMe = () => {
     <div className="bg-[#EAEDF2] py-25">
       <Container>
         {/* Section title  */}
-        <h3 className="font-inter text-2xl md:text-3xl font-black inline-block relative px-5 lg:px-0">
+        <h3 className="font-inter text-2xl md:text-3xl font-black inline-block relative px-2 md:px-0">
           ABOUT ME
-          <span className="absolute left-5 -bottom-2 lg:left-0 w-9 h-0.5 bg-org"></span>
+          <span className="absolute left-2 -bottom-2 lg:left-0 w-9 h-0.5 bg-org"></span>
         </h3>
-        <p className="font-inter uppercase text-sm text-[#555A64] pt-5 mb-10 px-5 lg:px-0">
+        <p className="font-inter uppercase text-sm text-[#555A64] pt-5 mb-10 px-2 lg:px-0">
           A passionate front-end developer based in bangladesh
         </p>
         {/* Flex start  */}
         <div
           className={
-            "flex lg:flex-row flex-col lg:items-center gap-12 lg:justify-between"
+            "flex lg:flex-row flex-col lg:items-center gap-12 lg:justify-between px-2 md:px-0"
           }
         >
           {/* Left side start  */}
           {/* Image section  */}
-          <div className="bg-[#ffffff] p-4 max-w-sm w-full rounded relative px-6 md:px-0">
-            <Image src={aboutFake} className={"w-full h-auto"} />
+          <div className="bg-[#EAEDF2] border-12 md:border-15 border-white w-full md:max-w-sm rounded relative px-2 md:px-0">
+            <Image src={tobaNew} className={"w-full h-auto"} />
             {/* Image icons  */}
-            <div className="absolute left-4 top-8 flex flex-col">
+            <div className="absolute left-0 md:top-8 top-5 flex flex-col">
               <Link to="https://github.com/riemetoba" target="_blank">
-                <div className="w-10 h-12 bg-org flex items-center justify-center border-white border-y-4 border-r-4">
-                  <FaGithub className="text-white text-lg" />
+                <div className="w-10 h-12 md:w-12 md:h-14 bg-org flex items-center justify-center border-white border-t-10 border-b-5 border-r-10">
+                  <FaGithub className="text-white md:text-2xl text-[22px]" />
                 </div>
               </Link>
 
@@ -38,8 +38,8 @@ const AboutMe = () => {
                 to="https://www.facebook.com/profile.php?id=100016533453052"
                 target="_blank"
               >
-                <div className="w-10 h-12 bg-org flex items-center justify-center border-white border-y-4 border-r-4 mt-2">
-                  <FaFacebook className="text-white text-lg" />
+                <div className="w-10 h-12 md:w-12 md:h-14 bg-org flex items-center justify-center border-white border-y-8 border-r-10">
+                  <FaFacebook className="text-white md:text-2xl text-[22px]" />
                 </div>
               </Link>
 
@@ -47,8 +47,8 @@ const AboutMe = () => {
                 to="https://www.linkedin.com/in/rieme-hasan-291767398"
                 target="_blank"
               >
-                <div className="w-10 h-12 bg-org flex items-center justify-center border-white border-y-4 border-r-4 mt-2">
-                  <FaLinkedin className="text-white text-lg" />
+                <div className="w-10 h-12 md:w-12 md:h-14 bg-org flex items-center justify-center border-white border-b-10 border-t-5 border-r-10">
+                  <FaLinkedin className="text-white md:text-2xl text-[22px]" />
                 </div>
               </Link>
             </div>
@@ -57,7 +57,7 @@ const AboutMe = () => {
           {/* Image section  */}
           {/* Left side end  */}
           {/* Right side start  */}
-          <div className="w-full max-w-xl px-5 lg:px-o">
+          <div className="w-full md:max-w-xl">
             <h3 className="text-xl md:text-2xl font-inter font-bold">
               I'M Rieme Hasan
             </h3>
