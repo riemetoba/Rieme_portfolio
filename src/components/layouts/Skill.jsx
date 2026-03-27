@@ -13,7 +13,6 @@ const Skill = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      // note:এই use case-এ setTimeout ব্যবহার করা হয়েছে animation শুরু করার সময়টা একটু পিছিয়ে দিতে|
       setHtml(90);
       setCss(86);
       setJs(65);

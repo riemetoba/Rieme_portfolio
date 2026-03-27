@@ -5,7 +5,7 @@ import workOne from "/src/assets/workOne.png";
 import workTwo from "/src/assets/workTwo.png";
 import workThree from "/src/assets/workThree.png";
 
-const Work = () => {
+const Projects = () => {
   return (
     <div id="projects" className="py-25 bg-[#ffffff]">
       <Container>
@@ -230,4 +230,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Projects;

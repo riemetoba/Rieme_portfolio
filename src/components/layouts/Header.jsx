@@ -14,10 +14,11 @@ const Header = () => {
   const navItems = [
     { name: "Home", path: "/" },
     { name: "About Me", path: "/aboutme" },
-    { name: "Services", path: "/" },
-    { name: "Portfolio", path: "/" },
-    { name: "Blog", path: "/" },
-    { name: "Contact", path: "/" },
+    { name: "Skills", path: "/skills" },
+    { name: "Service", path: "/service" },
+    { name: "Projects", path: "/projects" },
+    { name: "Review", path: "/testimonial" },
+    { name: "Contact", path: "/footer" },
   ];
 
   return (

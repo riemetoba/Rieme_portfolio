@@ -6,7 +6,7 @@ import { TfiMobile, TfiEmail } from "react-icons/tfi";
 import { FaGithub, FaFacebook, FaLinkedin, FaRegCopyright } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+const Contact = () => {
   return (
     <>
       <div className="py-25">
@@ -123,4 +123,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Contact;
