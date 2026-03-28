@@ -39,19 +39,19 @@ const Review = () => {
           >
             {/* Slider 1 */}
             <SwiperSlide>
-              <div className="bg-[#ffffff] w-full h-full py-6 px-8 border border-[#EEDDDD]">
+              <div className="bg-[#ffffff] w-full h-full py-4 px-6 md:py-6 md:px-8 border border-[#EEDDDD]">
                 <Flex className={"gap-x-5 items-start"}>
                   <Image className={"w-10 h-10"} src={reviewOne} />
                   <div className="flex flex-col">
-                    <p className="font-inter text-base text-[#555A64]">
+                    <p className="font-inter text-sm md:text-base text-[#555A64]">
                       Amazing frontend developer! Delivered a pixel-perfect,
                       responsive site using React and Tailwind. Clean code and
                       super fast delivery. Highly recommended!
                     </p>
-                    <p className="font-inter text-2xl text-[#090A0C] pt-3 pb-2 font-bold">
+                    <p className="font-inter text-base md:text-2xl text-[#090A0C] pt-3 pb-2 font-bold">
                       Ferdous Munmun
                     </p>
-                    <p className="font-inter text-base text-[#555A64] font-bold">
+                    <p className="font-inter text-sm md:text-base text-[#555A64] font-bold">
                       CEO
                     </p>
                   </div>
