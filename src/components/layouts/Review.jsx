@@ -61,11 +61,11 @@ const Review = () => {
 
             {/* Slider 2 */}
             <SwiperSlide>
-              <div className="bg-[#ffffff] w-full h-full py-6 px-8 border border-[#EEDDDD]">
+              <div className="bg-[#ffffff] w-full h-full py-4 px-6 md:py-6 md:px-8 border border-[#EEDDDD]">
                 <Flex className={"gap-x-5 items-start"}>
                   <Image className={"w-10 h-10"} src={reviewOne} />
                   <div className="flex flex-col">
-                    <p className="font-inter text-base text-[#555A64]">
+                    <p className="font-inter text-sm md:text-base text-[#555A64]">
                       Delivered exceptionally clean, modular React code that’s a
                       breeze to maintain. The architecture is well-structured
                       and ensuring future updates will be seamless and
@@ -74,7 +74,7 @@ const Review = () => {
                     <p className="font-inter text-2xl text-[#090A0C] pt-3 pb-2 font-bold">
                       Jannatul Ferdaush Arshe
                     </p>
-                    <p className="font-inter text-base text-[#555A64] font-bold">
+                    <p className="font-inter text-sm md:text-base text-[#555A64] font-bold">
                       Fiverr Client
                     </p>
                   </div>
@@ -84,11 +84,11 @@ const Review = () => {
 
             {/* Slider 3 */}
             <SwiperSlide>
-              <div className="bg-[#ffffff] w-full h-full py-6 px-8 border border-[#EEDDDD]">
+              <div className="bg-[#ffffff] w-full h-full py-4 px-6 md:py-6 md:px-8 border border-[#EEDDDD]">
                 <Flex className={"gap-x-5 items-start"}>
                   <Image className={"w-10 h-10"} src={reviewOne} />
                   <div className="flex flex-col">
-                    <p className="font-inter text-base text-[#555A64]">
+                    <p className="font-inter text-sm md:text-base text-[#555A64]">
                       Top-notch work! he provided a super-fast, modern UI that
                       works perfectly on all devices. The code structure is very
                       professional. Best developer I've hired so far!
@@ -96,7 +96,7 @@ const Review = () => {
                     <p className="font-inter text-2xl text-[#090A0C] pt-3 pb-2 font-bold">
                       Nusrat Nipa
                     </p>
-                    <p className="font-inter text-base text-[#555A64] font-bold">
+                    <p className="font-inter text-sm md:text-base text-[#555A64] font-bold">
                       Fiverr Client
                     </p>
                   </div>
