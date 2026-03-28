@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 
 const Review = () => {
   return (
-    <div className="bg-[#EAEDF2] py-25">
+    <div className="bg-[#EAEDF2] pt-25 pb-10">
       <Container>
         <h3 className="font-inter text-3xl uppercase font-black relative px-2 md:px-0">
           Testimonials
