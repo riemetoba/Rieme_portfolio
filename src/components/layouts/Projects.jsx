@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div id="projects" className="py-25 bg-[#ffffff]">
       <Container>
-        {/* Header Section */}
+        {/* Header Section start */}
         <h3 className="font-inter uppercase text-2xl :lg:text-3xl font-black relative px-2 lg:px-0">
             Latest Work
             <span className="absolute left-2 lg:left-0 -bottom-2 w-9 h-0.5 bg-org"></span>
