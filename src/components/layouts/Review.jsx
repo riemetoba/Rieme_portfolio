@@ -20,6 +20,7 @@ const Review = () => {
         <p className="font-inter uppercase text-sm text-[#555A64] pt-5 mb-15 px-2 md:px-0">
           A passionate front-end developer based in bangladesh
         </p>
+        {/* swiper slider  */}
 
         <div className="pb-15 px-2 md:px-0">
           <Swiper
