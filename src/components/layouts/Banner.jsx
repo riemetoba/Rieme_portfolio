@@ -18,6 +18,7 @@ const Banner = () => {
                      <button className="py-3 px-7 mt-9 border-2 border-org text-org font-inter font-medium uppercase hover:text-white hover:bg-org duration-300">Hire Me</button>
                 </div>
             </div>
+            {/* image  */}
             <div className="">
                 <Image src={tobaNew}/>
             </div>
