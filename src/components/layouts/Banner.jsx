@@ -1,6 +1,7 @@
 import Container from "../Container"
 import Image from "../Image"
 import toba from "/src/assets/toba.png"
+import { Typewriter } from 'react-simple-typewriter';
 
 
 const Banner = () => {
