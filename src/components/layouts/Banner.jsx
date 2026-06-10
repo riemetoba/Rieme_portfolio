@@ -1,6 +1,6 @@
 import Container from "../Container"
 import Image from "../Image"
-import tobaNew from "/src/assets/tobaNew.webp"
+import toba from "/src/assets/toba.png"
 
 
 const Banner = () => {
@@ -20,7 +20,7 @@ const Banner = () => {
             </div>
             {/* image  */}
             <div className="">
-                <Image src={tobaNew}/>
+                <Image src={toba}/>
             </div>
         </div>
     </Container>
