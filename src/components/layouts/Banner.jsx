@@ -13,7 +13,7 @@ const Banner = () => {
           }
         >
           <div className="px-2 lg:px-0">
-            <h3 className="pt-6 text-xl lg:text-3xl font-inter font-medium">
+            <h3 className="pt-6 pb-2 text-xl lg:text-3xl font-inter font-medium">
               Hello there
             </h3>
             <h1 className="text-2xl md:text-[30px] lg:text-[48px] font-bold text-black mb-5">
@@ -28,7 +28,7 @@ const Banner = () => {
                 delaySpeed={1500}
               />
             </h1>
-            <p className="text-sm lg:text-base font-inter leading-relaxed py-6 text-[#555A64]">
+            <p className="text-sm lg:text-base font-inter leading-relaxed pb-4 text-[#555A64]">
               Bringing designs to life with clean code and modern frontend
               technologies.
             </p>
