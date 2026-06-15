@@ -52,7 +52,7 @@ const Review = () => {
                       super fast delivery. Highly recommended!
                     </p>
                     <p className="font-inter text-base md:text-2xl text-[#090A0C] pt-3 pb-2 font-bold">
-                      Ferdous Munmun
+                      Najatul Islam
                     </p>
                     <p className="font-inter text-sm md:text-base text-[#555A64] font-bold">
                       CEO
